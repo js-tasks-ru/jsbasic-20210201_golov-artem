@@ -18,13 +18,9 @@ function isValid(name) {
 }
 
 function sayHello() {
-  return userName = ('Введите ваше имя');
-
-  if (isValid(userName)) {
+ if (isValid(userName)) {
     print(`Welcome back, $ {userName} !`);
   } else {
     print('Некорректное имя');
   }
 }
-
-sayHello()

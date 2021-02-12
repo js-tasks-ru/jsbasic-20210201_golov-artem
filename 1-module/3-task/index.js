@@ -10,6 +10,3 @@ function ucFirst(str) {
   return newStr
 }
 
-ucFirst('вася')
-ucFirst('в')
-ucFirst('')
