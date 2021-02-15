@@ -12,14 +12,14 @@ function print(text) {
  * @returns {boolean}
  */
 function isValid(name) {
-  // ваш код...
+  if (name ==null) return false;
+  let isValidValue = name != '' && ! name.includes(' ') && name.length >= 4 
+  return isValidValue
 }
 
 function sayHello() {
-  let userName = prompt('Введите ваше имя');
-
-  if (isValid(userName)) {
-    print(`Welcome back, ${userName}!`);
+ if (isValid(userName)) {
+    print(`Welcome back, $ {userName} !`);
   } else {
     print('Некорректное имя');
   }

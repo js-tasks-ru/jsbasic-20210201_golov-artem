@@ -1,8 +1,12 @@
-/**
- * ucFirst
- * @param {string} str
- * @returns {string}
- */
 function ucFirst(str) {
-  // ваш код...
+  let newStr = ''
+  for (let char of str){
+    if (char === str[0]) {
+      newStr = newStr + char.toUpperCase()
+    } else {
+      newStr = newStr + char
+    }
+  }
+  return newStr
 }
+
