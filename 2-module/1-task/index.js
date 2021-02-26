@@ -19,5 +19,4 @@ function sumSalary(salaries) {
     }
     return parseInt(sum);
   }
-  sumSalary(salaries);
 
